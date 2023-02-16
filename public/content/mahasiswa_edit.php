@@ -1,7 +1,7 @@
 <?php if (isset($_GET['nim'])) : ?>
     <?php
     $nim = $_GET['nim'];
-    $sql = $con->query("SELECT * FROM mahasiswa WHERE nim = '$nim'");
+    $sql = $con->query("SELECT * FROM mhs WHERE nim = '$nim'");
     $data = $sql->fetch();
     ?>
     <div class="row">

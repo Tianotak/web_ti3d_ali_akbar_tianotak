@@ -6,10 +6,10 @@
                     <h5>Data Mahasiswa</h5>
                     <hr>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formMahasiswa">
+                    <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#formMahasiswa">
                         Tambah Mahasiswa
                     </button>
-                    <table class="mt-2 table table-bordered">
+                    <table class="table table-dark table-striped">
                         <thead class="bg-light">
                             <tr>
                                 <th>NIM</th>
@@ -21,7 +21,7 @@
                         </thead>
                         <tbody>
                             <?php
-                            $sql = $con->query("SELECT * FROM mahasiswa");
+                            $sql = $con->query("SELECT * FROM mhs");
                             while ($row = $sql->fetch()) {
                                 echo "<tr>
                                     <td>$row[nim]</td>

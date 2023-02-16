@@ -33,6 +33,8 @@ if (empty($_SESSION['ti3d_username'])) {
             <div class="row">
                 <div class="col-12 p-0">
                     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+
                         <div class="container">
                             <a class="navbar-brand" href="index.php">web2<strong>ti3d</strong></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

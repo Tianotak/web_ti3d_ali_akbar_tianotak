@@ -4,7 +4,7 @@ if (isset($_GET['nim'])) {
     $nim = $_GET['nim'];
     //delete
 
-    $delete = $con->query("DELETE FROM mahasiswa WHERE nim = '$nim'");
+    $delete = $con->query("DELETE FROM mhs WHERE nim = '$nim'");
 
     if ($delete->rowCount() > 0) {
         echo "<script>

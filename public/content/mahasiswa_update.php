@@ -13,7 +13,7 @@ if (empty($nim) || empty($nama) || empty($alamat)) {
 } else {
 
     //update 
-    $sql = "UPDATE mahasiswa SET nama = :nama, jurusan = :jurusan, alamat = :alamat WHERE nim = :nim";
+    $sql = "UPDATE mhs SET nama = :nama, jurusan = :jurusan, alamat = :alamat WHERE nim = :nim";
     $simpan = $con->prepare($sql);
     #bind
     $simpan->bindParam('nama', $nama);

@@ -5,13 +5,13 @@
                 <h5>Data User</h5>
                 <hr>
                 <!-- Button trigger modal -->
-                <div align="center">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formUser">
+                <div align="left">
+                <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#formUser">
                     Tambah User
                 </button>
                 </div>
                 
-                <table class="mt-2 table table-bordered">
+                <table class="table table-dark table-striped">
                     <thead class="bg-dark">
                         <tr style="color:white;">
                             <th>No</th>
